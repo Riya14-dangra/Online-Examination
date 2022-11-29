@@ -1,7 +1,6 @@
 package JAVA_INTERSHIP;
 
-//public class Onlineexam {
-//}
+
 
 import java.util.*;
 
