@@ -12,12 +12,12 @@ public class Onlineexam {
         int id=0;
         Scanner sc=new Scanner(System.in);
 
-        System.out.print("Enter user name:");
+        System.out.print("ENTER YOU FULL NAME:");
         name=sc.next();
-        System.out.print("Enter roll no:");
+        System.out.print(" ENTER YOU ROLL NUMER AS PER UNIVERSITY:");
         id=sc.nextInt();
         int count=0;
-        System.out.println("\t\tWelcome "+name+" to Oasis Online Examination");
+        System.out.println("\t\tWelcome "+name+" to SGABU Online Examination");
 
         do
         {
@@ -30,7 +30,7 @@ public class Onlineexam {
             ch=sc.nextInt();
             if(ch==4)
             {
-                System.out.println("Thank you for taking exam");
+                System.out.println("Thank you for taking exam have a nice day!!");
                 break;
             }
             switch(ch)
@@ -187,7 +187,7 @@ public class Onlineexam {
                 }
                 case 2:
                 {
-                    System.out.println("Congrats  "+name+"  You scored "+count+"marks"+"out of 5");
+                    System.out.println(" Congrats "+name+"  You succesfully passed exam and scored "+count+"marks"+"out of 5");
                 }
 
             }
